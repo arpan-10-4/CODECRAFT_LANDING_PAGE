@@ -148,7 +148,7 @@ a {
 .hero {
     display: flex;
     align-items: center;
-    padding: 80px 0; /* Reduced padding for smaller screens */
+    padding: 80px 0; 
     background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: #fff;
     overflow: hidden;
@@ -167,7 +167,7 @@ a {
 }
 
 .hero-content h1 {
-    font-size: 48px; /* Slightly smaller for better fit */
+    font-size: 48px; 
     margin-bottom: 20px;
     line-height: 1.2;
     font-weight: 700;
@@ -178,8 +178,8 @@ a {
 }
 
 .hero-content p {
-    font-size: 18px; /* Smaller font size for better readability */
-    margin-bottom: 30px; /* Adjusted spacing */
+    font-size: 18px; 
+    margin-bottom: 30px; 
     opacity: 0.9;
 }
 
@@ -187,7 +187,7 @@ a {
     background: #ffd700;
     color: #333;
     font-weight: 600;
-    padding: 12px 24px; /* Smaller button for mobile */
+    padding: 12px 24px; 
     border-radius: 50px;
     transition: all 0.3s ease;
 }
@@ -205,8 +205,8 @@ a {
 }
 
 .hero-image img {
-    max-width: 100%; /* Ensure the image doesn't overflow */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
     border-radius: 20px;
     transition: transform 0.3s ease;
 }
@@ -218,7 +218,7 @@ a {
 /* Responsive Adjustments for Hero Section */
 @media (max-width: 1024px) {
     .hero-content h1 {
-        font-size: 40px; /* Smaller font size for tablets */
+        font-size: 40px; 
     }
 
     .hero-content p {
@@ -226,7 +226,7 @@ a {
     }
 
     .hero-image img {
-        max-width: 90%; /* Slightly smaller image for tablets */
+        max-width: 90%; 
     }
 }
 
@@ -234,15 +234,15 @@ a {
     .hero .container {
         flex-direction: column;
         text-align: center;
-        gap: 20px; /* Reduced gap for mobile */
+        gap: 20px; 
     }
 
     .hero-content, .hero-image {
-        max-width: 100%; /* Full width for mobile */
+        max-width: 100%; 
     }
 
     .hero-content h1 {
-        font-size: 36px; /* Smaller font size for mobile */
+        font-size: 36px; 
     }
 
     .hero-content p {
@@ -250,17 +250,17 @@ a {
     }
 
     .hero-image {
-        margin-top: 20px; /* Space between text and image */
+        margin-top: 20px; 
     }
 
     .hero-image img {
-        max-width: 80%; /* Smaller image for mobile */
+        max-width: 80%; 
     }
 }
 
 @media (max-width: 480px) {
     .hero-content h1 {
-        font-size: 32px; /* Even smaller font size for very small devices */
+        font-size: 32px; 
     }
 
     .hero-content p {
@@ -268,7 +268,7 @@ a {
     }
 
     .hero-image img {
-        max-width: 100%; /* Full width for very small devices */
+        max-width: 100%; 
     }
 }
 /* Features Section */
